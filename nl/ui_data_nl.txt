@@ -140,15 +140,15 @@ Miscellaneous = Overige
 Find Component = Zoek component
 Component = Componenten
 Footprint... = Grenfläche Bauteil...
-This component is deleted! = De Componenten is bereits gewist!
-Convert = Konverteren
-Convert Schematic to PCB = Konvertiere Schema in PCB
+This component is deleted! = Dit onderdeel is al gewist!
+Convert = Converteer
+Convert Schematic to PCB = Converteer Schema naar PCB
 The component ID will be reset according to the component prefix, this operation will clear Undo histories. Please notice: = De Componenten-ID wird entsprechend der Componenten Vorsilben zurückgesetzt, dieser Vorgang löscht den Rückgängigkeitsverlauf. Graag beachten Sie:
 Please make sure the component prefixes of the schematic and PCB are corresponding = Graag stellen Sie sicher, dass die Componenten Vorsilben des Schemas en der PCB übereinstimmen
 Please reset the component ID of corresponding schematic or corresponding PCB too = Graag instellen Sie auch die Componenten-ID des entsprechenden Schemas of der entsprechenden PCB zurück
 Do you want to continue? = Wilt u doorgaan?
-Reset Component Unique ID = Component ID aanmaken?
-Component ID reset successfully! = Komopenten ID gelukt zurückgesetzen.
+Reset Component Unique ID = Component ID herstellen?
+Component ID reset successfully! = Component ID herstellen is gelukt
 Convert to PCB = Converteer naar PCB
 Update PCB = PCB bijwerken
 Shortcut Keys Setting = Sneltoets instellen
@@ -162,7 +162,7 @@ Change to Standard Mode = Wissel in Standardmodus
 Change to Simulation Mode = Wissel in Simulatiemode
 Welcome to Use LCEDA = Welkom bij LCEDA
 Welcome to Use EasyEDA = Welkom bij EasyEDA
-Enable Education Edition Features for Free >>> = Aktiviere gratis die Lerneditionsfunktie >>>
+Enable Education Edition Features for Free >>> = Activeer gratis de Opleiding Editie functies >>>
 Quick Start = Snelstart
 More Help = Meer hulp
 Explore = Verkennen
@@ -1266,7 +1266,7 @@ Wire Width = Drahtdicke
 Sheet = Pagina
 Merged sheet = Zusammengefügte Pagina
 Separated sheet = Getrennte Pagina
-Engine = 
+Engine = Motor
 Exporting PDF = PDF exporteren
 Export 3D Model = 3D Model exporteren
 [exportDocument] 
@@ -1328,7 +1328,7 @@ Please rebuild the copper area after modifying tracks and packages. = Graag baue
 After generating the Gerber file, please use the {0}Gerber Viewer{1} to check whether it conforms to the design requirements. = Verwenden Sie naar dem Genereren der Gerber-Bestand den {0}Gerber Viewer{1}, um naar controleren, ob sie den Designanforderungen entspricht.
 Order PCB/SMT = Bestelle PCB/SMT bij JLCPCB
 Found the complicated polygon that object cannot be generated at Gerber, please remove or replace = Kompliziertes PolygonObject gevonden, het bij Gerber niet generiert worden kann, graag verwijderen of vervangen
-ID: {id}, Object: {object}, Location: {location} = 
+ID: {id}, Object: {object}, Location: {location} = ID: {id}, Object: {object}, Locatie: {location}
  
 #Dialog DRC
 Item = Artikel
@@ -1343,7 +1343,7 @@ Via to Via = Durchkontaktering naar Durchkontaktering
 Via Hole Size = Durchgangbohrungs Grootte
 Realtime DRC = Echtzeit Designregelprüfung (DRC)
 {0} is too small! = {0} is naar klein!
-Invalid DRC Rule = Unültige Designregelprüfung(DRC) Regel
+Invalid DRC Rule = Ongeldige Designregelprüfung(DRC) Regel
 Rule = Regel
 Via Diameter = Durchkontaktering Diameter
 Via Drill Diameter = Durchkontaktering Boor diameter
@@ -1358,11 +1358,15 @@ You should not delete default rule! = Standardregel moet niet gewist worden!
 Rule list contains invalid rule setting! = Regelliste beinhaltet ungeldige Konfigurationen!
 Duplicate rule name exists! = Duplikat van Regelnaamn bestaat bereits!
 via diameter is smaller than via drill diameter! = Durchkontaktering Diameter is kleiner dan der Lochdurchmeter!
-Currently rule name is not allowed to contain magical characters like . and $ = Regelnaamn mogen Sonderzeichen wie . en $ niet beinhalten.
+Currently rule name is not allowed to contain magical characters like . and $ = Regelnaam mogen Sonderzeichen wie . en $ niet beinhalten.
  
 [drcRule] 
 All = Alle
 [/drcRule] 
+ 
+ 
+ 
+ 
  
 #Dialog Hotkey
 Change Canvas Unit = Canvas eenheid wijzigen
@@ -3154,7 +3158,7 @@ Open footprint "Custom Data" dialog = "Benutzerdefinierte Daten" voor dit Bautei
  
 #Create lead shape
 Create Lead Shape = Lötform voor Leitung aanmaken
-Base on Pad Center = Op Pad Mitte baserend
+Base on Pad Center = Op Pad Midden baserend
 Base on Canvas Origin = Op Tekenings Ursprung baserend
 Lead shape = Lötform
 Footprint Type = Bauteilgrenfläche Typ
